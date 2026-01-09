@@ -1,8 +1,9 @@
 body{
-    background-color: green;
+    background-color:white;;
 }
 
 body *
 {
     border:1px solid black; 
 }
+
