@@ -1,9 +1,27 @@
-body{
-    background-color:white;;
-}
 
+
+
+body{
+    background-color:white;
+    font-family: sans-serif
+}
 body *
 {
     border:1px solid black; 
+    font-family: sans-serif
+}
+header{
+    display: flex;
+    flex-direction: flex;
+    background-image: url(imgs/HeartofKYWebLogo.jpg);
+    
+}
+.logo{display: none;}
+
+.title{
+    font-size: 39pt;
+    font-family: 'Rock Salt';
+    font-weight: 400;
+    color: rgba(249, 249, 249, 1);
 }
 
