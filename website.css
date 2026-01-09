@@ -11,10 +11,31 @@ body{
 header{
     display: flex;
     background-image: url(imgs/HeartofKYWebLogo.jpg);
-    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
     height:400px;
     
 }
+
+.title{
+    display:flex;
+    font-family: "Rock Salt";
+    font-size:50px;
+    width: 300px;
+    flex-wrap:wrap;
+    border: 1px solid black;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    width:500px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-left:50px;
+    
+}
+
 .logo{
     display: none;
 }
