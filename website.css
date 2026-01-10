@@ -12,33 +12,55 @@ body{
 
 header{
     display: flex;
-    background-image: url(imgs/HeartofKYWebLogo.jpg);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url(imgs/HeartofKYWebLogo.jpg);
     background-size: cover;
     background-position: center;
     height:400px;
-    
+    border: 5px solid black;
+    flex-direction: column;
+    align-content: center;
+
 }
 
-.title{
+header .title{
     display:flex;
-    font-family: "Rock Salt";
-    font-size:20px;
-    margin-left:10px;
+    font: "Rock Salt";
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:39px;
+    margin: auto;
     flex-wrap:wrap;
     border: 1px solid black;
     color: rgba(249, 249, 249, 1);
-    
-    
+    height: fit-content;
+    order:1;
+}
+
+header nav{
+    /*hey.*/
+    order:0;
+    /*don't touch the order*/
+}
+
+nav{
+
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+    align-items: stretch;
+    flex-grow: auto;
+    justify-content: flex-end;
+    background-color: grey;
+   
 }
 
 nav ul {
     list-style: none;
-    display:flex;
-    width:500px;
-    border: 1px solid black;
-    justify-content: space-around;
-    margin-left:50px;
-    
+    gap:20px;
+    display:flex;   
 }
 
 .logo{
@@ -64,19 +86,16 @@ aside{
     margin: 20px 0px 20px 0px;
 }
 
-p{ 
+p,h2,h3,address{ 
     margin: 10px 30px 10px 30px;
 }
 
-h2{
-    margin: 0px 30px 0px 30px;
+.social:not(#home){
+    display:none;
 }
 
-h3{
-    margin: 0px 30px 0px 30px;
-}
-address{ 
-    margin: 0px 30px 0px 30px;
-}
+
+
+
 
 
