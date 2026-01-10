@@ -26,14 +26,14 @@ header{
 
 header .title{
     display:flex;
-    font: "Rock Salt";
+    font-family: "Segoe Print";
+    text-align: center;
     text-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size:39px;
+    font-size:50px;
     margin: auto;
     flex-wrap:wrap;
-    border: 1px solid black;
     color: rgba(249, 249, 249, 1);
     height: fit-content;
     order:1;
@@ -46,21 +46,33 @@ header nav{
 }
 
 nav{
-
-    display: inline-flex;
+    position:fixed;
+    right:-10px;
+    display: flex;
     width: 100%;
-    height: fit-content;
-    align-items: stretch;
+    height: 40px;
+    align-content: center;
+    align-items: center;
     flex-grow: auto;
     justify-content: flex-end;
-    background-color: grey;
-   
+    background-color: transparent;
+    animation: color-change linear;
+    animation-timeline: scroll();
+
 }
 
 nav ul {
     list-style: none;
-    gap:20px;
-    display:flex;   
+    gap:30px;
+    display:flex;  
+    margin-right: 60px;
+}
+
+nav a:link{
+    color: solid white;
+}
+nav a:visited{
+    color: #6e8cb5;
 }
 
 .logo{
@@ -90,10 +102,23 @@ p,h2,h3,address{
     margin: 10px 30px 10px 30px;
 }
 
+ul{
+    margin: 10px 30px 10px 50px;
+}
+
+.phone{
+    margin: 10px 30px 10px 30px;
+
+}
+
 .social:not(#home){
     display:none;
 }
 
+@keyframes color-change {
+  from { background-color:transparent;}
+  to { background-color: black; }
+}
 
 
 
