@@ -81,7 +81,7 @@ nav a:visited{
 
 .social:nth-child(1) img{
     /*background-color: #1877f2;*/
-    /*okay we*/
+    /*okay this is is cool. I like what we did for the gradient*/
     border-radius: 100%;
     background-image: linear-gradient(#1877f2, #6e8cb5);
 }
@@ -98,17 +98,12 @@ aside{
     margin: 20px 0px 20px 0px;
 }
 
-p,h2,h3,address{ 
+p,h2,h3,address,.phone{ 
     margin: 10px 30px 10px 30px;
 }
 
 ul{
     margin: 10px 30px 10px 50px;
-}
-
-.phone{
-    margin: 10px 30px 10px 30px;
-
 }
 
 .social:not(#home){
