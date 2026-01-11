@@ -46,7 +46,6 @@ header nav{
 
 nav{
     position:fixed;
-    right:-10px;
     display: flex;
     width: 100%;
     height: 40px;
@@ -54,7 +53,6 @@ nav{
     align-items: center;
     flex-grow: auto;
     justify-content: flex-end;
-    
     animation: color-change linear;
     animation-timeline: scroll();
 }
