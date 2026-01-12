@@ -5,9 +5,6 @@
 }
 body{
     background-color:white;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
 }
 
 header{
@@ -38,12 +35,6 @@ header .title{
     order:1;
 }
 
-header nav{
-    /*hey.*/
-    order:0;
-    /*don't touch the order*/
-}
-
 nav{
     position:fixed;
     display: flex;
@@ -53,7 +44,7 @@ nav{
     align-items: center;
     flex-grow: auto;
     justify-content: flex-end;
-    animation: color-change linear;
+    animation: color-change 1s;
     animation-timeline: scroll();
 }
 
@@ -73,6 +64,14 @@ nav a:visited{
 
 .logo{
     display: none;
+}
+
+#inspiration{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    color: #1877f2;
+
 }
 
 .social:nth-child(1) img{
@@ -99,11 +98,24 @@ aside{
 }
 
 p,h2,h3,address,.phone{ 
-    margin: 10px 30px 10px 30px;
+    margin: 10px 50px 10px 50px;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, h3{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 ul{
-    margin: 10px 30px 10px 50px;
+    margin: 10px 50px 10px 50px;
 }
 
 #childcare aside, #activities aside, #support aside, #preschool aside, #concerns aside{
