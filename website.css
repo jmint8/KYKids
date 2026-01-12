@@ -115,16 +115,26 @@ ul{
 #whyChildcare div{
     order:2;
 }
+#choseChildcare
+{
+    display:flex;
+    
+}
+#childcareBenefits{
+    display:flex;
+   
+   
+}
+#childcare main {
+    display:flex;
+    border: 10px dotted green;   
+    flex-direction: column;
+}
+#poviders
+{
+    display: none;
+}
 
-#choseChildcare, #childcareBenefits{
-    display:grid;
-    grid-template-columns:2;
-    grid-template-rows: 2;
-    border: 1px solid black;
-}
-#choseChildcare .imgdiv{
-    grid-row: 1/3;
-}
 @keyframes color-change {
   from { background-color:transparent;}
   to { background-color: black; }
