@@ -44,7 +44,7 @@ nav{
     align-items: center;
     flex-grow: auto;
     justify-content: flex-end;
-    animation: color-change 1s;
+    animation: color-change .1s;
     animation-timeline: scroll();
 }
 
@@ -57,11 +57,12 @@ nav ul {
 
 nav a:link{
     color: solid white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav a:visited{
     color: #6e8cb5;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .logo{
     display: none;
 }
@@ -71,7 +72,6 @@ nav a:visited{
     font-size: larger;
     font-weight: 600;
     color: #1877f2;
-
 }
 
 .social:nth-child(1) img{
