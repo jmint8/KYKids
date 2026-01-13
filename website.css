@@ -20,9 +20,39 @@ header{
     align-content: center;
 }
 
+.links li{
+    list-style: none;;
+}
+#home main>section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a:not(nav a){
+    color:rgb(0, 114, 153, 1);
+}
+
+#home h2{
+    font-size:30px;
+    font-weight:900;
+}
+
+link l
+
+#home p
+{
+    font-size: 18px;
+    font-style: "PT Sans", sans-serif;
+    margin-top:20px;
+    font-weight: lighter;
+    min-height: 30px;
+    color: rgb(35, 32, 32);
+}
+
 header .title{
     display:flex;
-    font-family:"Segoe Print";
+    width: 300px;
+    font-family:'Rock Salt' , cursive;
+    font-weight: 600;
     text-align: center;
     text-wrap: wrap;
     justify-content: center;
@@ -39,7 +69,7 @@ nav{
     position:fixed;
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 60px;
     align-content: center;
     align-items: center;
     flex-grow: auto;
@@ -51,9 +81,12 @@ nav{
 nav ul {
     list-style: none;
     gap:30px;
+    font-family: Helvetica;
     display:flex;  
     margin-right: 60px;
+    font-size: 20px;
 }
+
 
 header a:link{
     color: #ffffff;
@@ -69,11 +102,12 @@ nav a:visited{
 
 nav::before {
     display: flex;
-    content: "Heart of KY Kids";
+    content: "Heart of Kentucky Kids";
+    position: fixed;
+    left:5px;
     color: rgb(255, 255, 255);
-    
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-family: Helvetica, sans-serif;
     font-size: 15pt;
     align-self: center;
     justify-content: flex-start;
@@ -87,7 +121,9 @@ nav::before {
 
 #inspiration p{
     text-align: center;
-    font-size: larger;
+    font-size: 30px;
+    margin-top:50px;
+    margin-bottom: 50px;
     font-weight: 600;
     color: rgba(0, 114, 153, 1);
 }
@@ -151,23 +187,16 @@ ul{
 #whyChildcare div{
     order:2;
 }
-#choseChildcare
-{
-    display:flex; 
-}
-#childcareBenefits{
-    display:flex; 
-}
-#childcare main {
-    display:flex;
-    border: 10px dotted green;   
-    flex-direction: column;
-}
 
 #childcare img
 {
-    width:250px;
-    flex-grow:1;
+    width:350px;
+    
+}
+#childcare .imgwrapper{
+    margin:80px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -179,9 +208,14 @@ ul{
 #childcare .imggroup.long
 {
     display:flex;
-    border: 1px solid black;
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
+#childcare h2{
+    font-size: 35px;
+}
 
 #poviders
 {
@@ -198,10 +232,17 @@ ul{
     display:flex;
     margin-left: 50px;
     margin-right: 50px;
-    
-    border: 1px solid black;
     flex-wrap:wrap;
+    
 
+}
+#preschool .imggroup.short{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 10px;
 }
 #HeadstartSection img{
     width: 160px;
@@ -219,16 +260,25 @@ ul{
 #support img{
     width:200px;
 }
-.imggroup.short{
+#support .imggroup.short{
     display:flex;
-    border: 1px solid black;
     flex-direction: column;
     width: 300px;
     flex-grow: 1;
+    align-items: center;
+    margin-bottom: 10px;
 }
 /*Activities section*/
 #activities img{
     width:300px;
+}
+#activities .imggroup.short{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 10px;
 }
 #activities.imggroup.long
 {
@@ -238,36 +288,61 @@ ul{
     flex-grow: 1;
     flex-shrink: 2;
     gap: 50px;
-    border: 1px solid green;
+
 }
-iframe[src=src="https://www.youtube.com/embed/HVb7yfI0HT4"]
+iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 {
     width: 464px;
     height:315px;
     align-self: center;
 }
 
-.links li{
+#dolly .links li, #ready4k .links li{
     padding: 5px;
     list-style: none;
-    border: 1px transparent;
     margin: 20px;
-    background-color: #000f60a1;
+    background-color: #0c4d97a5;
     border-radius: 10px;
+    color: white;;
 }
 
 #dolly a, #ready4k a{
     text-decoration: none;
 }
 
-.links li a:visited, .links li a:link{
-    color:white;
-    text-decoration: none;
-}
+
 .note{
     margin:50px;
 }
 @keyframes color-change {
   from { background-color:transparent;}
   to { background-color: rgb(0, 0, 0); }
+}
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
