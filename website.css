@@ -165,6 +165,35 @@ ul{
     display: none;
 }
 
+/*PreSchool section*/
+
+#headStartPre
+{
+    display:flex;
+
+}
+.imgwrapper{
+    display:flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    border: 1px solid black;
+    flex-wrap:wrap;
+
+}
+#HeadstartSection img{
+    width: 160px;
+}
+#PublicPreschool img{
+    width:170px;
+}
+
+#PrivatePreschool img{
+    width:170px;
+}
+
+
+
 @keyframes color-change {
   from { background-color:transparent;}
   to { background-color: black; }
