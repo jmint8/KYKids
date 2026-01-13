@@ -56,8 +56,8 @@ nav ul {
     margin-right: 60px;
 }
 
-nav a:link{
-    color: solid #ffffff;
+header a:link{
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -85,11 +85,11 @@ nav::before {
     display: none;
 }
 
-#inspiration{
+#inspiration p{
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     font-weight: 600;
-    color: #1877f2;
+    color: rgba(0, 114, 153, 1);
 }
 
 .social:nth-child(1) img{
@@ -116,13 +116,24 @@ aside{
 }
 
 p,h2,h3,address,.phone{ 
-    margin: 10px 50px 10px 50px;
+    margin: 10px 15% 10px 15%;
 
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1.5;
+    text-indent: 0.0pt;
+    font-size: 14.0pt;
 }
+
+p a:link{
+    color: rgba(0, 114, 153, 1);
+}
+
 h2, h3{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -130,6 +141,7 @@ h2, h3{
     font-style: normal;
     padding-bottom: 10px;
     padding-top: 10px;
+    color: rgba(0,114,153,1);
 }
 
 ul{
