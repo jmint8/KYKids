@@ -22,6 +22,7 @@ header{
 
 header .title{
     display:flex;
+    font-family:"Segoe Print";
     text-align: center;
     text-wrap: wrap;
     justify-content: center;
@@ -86,7 +87,7 @@ nav::before {
 
 #inspiration p{
     text-align: center;
-    font-size: x-large;
+    font-size: larger;
     font-weight: 600;
     color: rgba(0, 114, 153, 1);
 }
@@ -116,24 +117,14 @@ aside{
 }
 
 p,h2,h3,address,.phone{ 
-    margin: 10px 15% 10px 15%;
+    margin: 10px 50px 10px 50px;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 1.5;
-    text-indent: 0.0pt;
-    font-size: 14.0pt;
 }
 
-p a:link{
-    color: rgba(0, 114, 153, 1);
-    font-weight: bold;
-    text-decoration: none;
-}
+
 
 h2, h3{
     font-family: "Raleway", sans-serif;
@@ -223,8 +214,59 @@ ul{
     width:170px;
 }
 
+/*Support section*/
 
+#support img{
+    width:200px;
+}
+.imggroup.short{
+    display:flex;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+}
+/*Activities section*/
+#activities img{
+    width:300px;
+}
+#activities.imggroup.long
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    gap: 50px;
+    border: 1px solid green;
+}
+iframe[src=src="https://www.youtube.com/embed/HVb7yfI0HT4"]
+{
+    width: 464px;
+    height:315px;
+    align-self: center;
+}
 
+.links li{
+    padding: 5px;
+    list-style: none;
+    border: 1px transparent;
+    margin: 20px;
+    background-color: #000f60a1;
+    border-radius: 10px;
+}
+
+#dolly a, #ready4k a{
+    text-decoration: none;
+}
+
+.links li a:visited, .links li a:link{
+    color:white;
+    text-decoration: none;
+}
+.note{
+    margin:50px;
+}
 @keyframes color-change {
   from { background-color:transparent;}
   to { background-color: rgb(0, 0, 0); }
