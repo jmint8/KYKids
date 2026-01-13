@@ -149,6 +149,8 @@ ul{
     margin: 10px 50px 10px 50px;
 }
 
+/*Childcare section*/
+
 #childcare aside, #activities aside, #support aside, #preschool aside, #concerns aside{
     display:none; /* The socials image for every other pages except home is hidden.*/
 }
@@ -170,6 +172,26 @@ ul{
     border: 10px dotted green;   
     flex-direction: column;
 }
+
+#childcare img
+{
+    width:250px;
+    flex-grow:1;
+    
+}
+
+.imgwrapper #whyChildcare
+{
+    order:1;
+}
+
+#childcare .imggroup.long
+{
+    display:flex;
+    border: 1px solid black;
+}
+
+
 #poviders
 {
     display: none;
@@ -185,8 +207,10 @@ ul{
     display:flex;
     margin-left: 50px;
     margin-right: 50px;
+    
     border: 1px solid black;
     flex-wrap:wrap;
+
 }
 #HeadstartSection img{
     width: 160px;
@@ -198,6 +222,8 @@ ul{
 #PrivatePreschool img{
     width:170px;
 }
+
+
 
 @keyframes color-change {
   from { background-color:transparent;}
