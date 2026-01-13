@@ -47,7 +47,6 @@ nav{
     justify-content: flex-end;
     animation: color-change .1s;
     animation-timeline: scroll();
-    border: 2px solid white;
 }
 
 nav ul {
@@ -71,12 +70,15 @@ nav a:visited{
 nav::before {
     display: flex;
     content: "Heart of KY Kids";
-    color: rgb(219, 219, 228);
+    color: rgb(255, 255, 255);
+    
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
+    font-size: 15pt;
     align-self: center;
-    text-align: left;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 25px;
 }
 
 .logo{
