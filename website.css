@@ -280,7 +280,8 @@ ul{
     align-items: center;
     margin-bottom: 10px;
 }
-#activities.imggroup.long
+
+#activities .imggroup.long
 {
     display: flex;
     flex-direction: column;
@@ -289,6 +290,9 @@ ul{
     flex-shrink: 2;
     gap: 50px;
 
+}
+#programs p{
+    margin-bottom:5px;
 }
 iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 {
@@ -345,4 +349,26 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+/*Concerns section*/
+#concerns section p, #concerns section li{
+    margin:30px;
+    
+}
+#concerns .imgwrapper{
+    display:flex;
+    flex-wrap: wrap;;
+
+}
+#concerns img{
+    width: 300px;
+}
+#concerns .imggroup.long{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    flex-grow: 1;
+    align-items: center;;
+
 }
