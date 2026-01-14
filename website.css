@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asset&family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Sintony:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asset&family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Sintony:wght@400;700&display=swap");
 
 *,
 ::after,
@@ -10,7 +9,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   background-color: rgb(238, 232, 240);
@@ -25,77 +23,66 @@ header {
   align-content: center;
 }
 
-
 /*all background images oare from pexels and have public domain*/
-#home header{
-    background-image:
-    linear-gradient(transparent, rgb(238, 232, 240)),
+#home header {
+  background-image: linear-gradient(transparent, rgb(238, 232, 240)),
     url(imgs/home.jpg);
 
-    background-size: length;
+  background-size: length;
 }
-#childcare header{
-    background-image:
-    linear-gradient(transparent, rgb(238, 232, 240)),
+#childcare header {
+  background-image: linear-gradient(transparent, rgb(238, 232, 240)),
     url(imgs/childcare.jpg);
-    background-size: length;
-
+  background-size: length;
 }
-#activities header{
-    background-image:
-    linear-gradient(transparent, rgb(238, 232, 240)),
+#activities header {
+  background-image: linear-gradient(transparent, rgb(238, 232, 240)),
     url(imgs/activities.jpg);
-    background-size: length;
+  background-size: length;
 }
-#support header{
-    background-image:
-    linear-gradient(transparent, rgb(238, 232, 240)),
+#support header {
+  background-image: linear-gradient(transparent, rgb(238, 232, 240)),
     url(imgs/support.jpg);
-    background-size: length;
+  background-size: length;
 }
-#preschool header{
-    background-image:
-    linear-gradient(transparent, rgb(238, 232, 240)),
+#preschool header {
+  background-image: linear-gradient(transparent, rgb(238, 232, 240)),
     url(imgs/preschool.jpg);
-    background-size: length;
+  background-size: length;
 }
-#concerns header{
-    background-image:
-    linear-gradient(transparent, rgb(238, 232, 240)),
+#concerns header {
+  background-image: linear-gradient(transparent, rgb(238, 232, 240)),
     url(imgs/concerns.jpg);
-    background-size: length;
+  background-size: length;
 }
 
 .links li {
   list-style: none;
-   font-family: "Sintony", sans-serif;
+  font-family: "Sintony", sans-serif;
 }
 #home main > section {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-a:not(nav a){
+a:not(nav a) {
   color: rgba(0, 114, 153, 1);
 }
 
-#activities a, #support a{
-    color: white;
-    
+#activities a,
+#support a {
+  color: white;
 }
-
-
 
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-
-p a{
-    text-decoration: none;
-    font-weight: bold;
+p a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
-link #home p{
+link #home p {
   font-size: 18px;
   margin-top: 20px;
   font-weight: lighter;
@@ -104,8 +91,7 @@ link #home p{
   color: rgb(35, 32, 32);
 }
 
-#home #funding{
-
+#home #funding {
 }
 
 header .title {
@@ -123,7 +109,11 @@ header .title {
   color: rgb(249, 249, 249);
   height: fit-content;
   order: 1;
-  background: radial-gradient(transparent, rgba(74, 85, 172, 0.925), rgba(93, 35, 128, 0.25));
+  background: radial-gradient(
+    transparent,
+    rgba(74, 85, 172, 0.925),
+    rgba(93, 35, 128, 0.25)
+  );
   border-radius: 12px;
 }
 
@@ -189,7 +179,6 @@ nav::before {
   color: rgba(0, 114, 153, 1);
 }
 
-
 .social:nth-child(1) img {
   /*background-color: #1877f2;*/
   /*okay this is is cool. I like what we did for the gradient*/
@@ -231,19 +220,17 @@ p {
 
 h2,
 h3 {
-    background: linear-gradient(40deg,#0f86b9dc,#aa6ad5);
-    border-radius: 25px;
+  background: linear-gradient(40deg, #0f86b9dc, #aa6ad5);
+  border-radius: 25px;
   font-family: "Cabin Sketch", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
-    text-align: center;
+  text-align: center;
   padding-bottom: 10px;
   padding-top: 10px;
   color: rgb(251, 254, 255);
 }
-
-
 
 ul {
   margin: 10px 15% 10px 15%;
@@ -294,9 +281,8 @@ ul {
 #headStartPre {
   display: flex;
 }
-#preschool a{
-    color:white;
-    
+#preschool a {
+  color: white;
 }
 .imgwrapper {
   display: flex;
@@ -341,10 +327,11 @@ ul {
   width: 280px;
 }
 
-#activities p, #support p, #preschool p{
-    font-weight: 600;
+#activities p,
+#support p,
+#preschool p {
+  font-weight: 600;
 }
-
 
 #activities .imggroup.short {
   display: flex;
@@ -356,7 +343,7 @@ ul {
 }
 .imggroup.long .links li a {
   color: white;
-   font-family: "Sintony", sans-serif;
+  font-family: "Sintony", sans-serif;
 }
 
 #activities .imggroup.long {
@@ -392,7 +379,7 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 #dolly a,
 #ready4k a {
   text-decoration: none;
-   font-family: "Sintony", sans-serif;
+  font-family: "Sintony", sans-serif;
 }
 
 .note {
@@ -402,7 +389,7 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 }
 @keyframes color-change {
   from {
-    background: linear-gradient(rgb(29, 80, 153),transparent);
+    background: linear-gradient(rgb(29, 80, 153), transparent);
   }
   to {
     background-color: rgb(29, 80, 153);
@@ -454,92 +441,89 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 }
 
 #activities .imgwrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-gap: 40px;
-margin: 0 auto;
-max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 #activities .imggroup {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 30px;
-text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
 }
 
-
 #activities .imggroup.bg {
-background-image: url("imgs/kid.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+  background-image: url("imgs/kid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #activities .links a {
-display: inline-block;
-padding: 14px 22px;
-font-size: 18px;
-border-radius: 6px;
- font-family: "Sintony", sans-serif;
+  display: inline-block;
+  padding: 14px 22px;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Sintony", sans-serif;
 }
-
 
 #activities .imggroup > div {
-padding: 10px 15px;
+  padding: 10px 15px;
 }
 
-#activites, .note{
-    display: flex;
-    justify-content: center;
+#activites,
+.note {
+  display: flex;
+  justify-content: center;
 }
-
 
 #support .imgwrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-gap: 30px;
-max-width: 1200px;
-margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .imggroup.short {
-background: linear-gradient(40deg,#0f86b9dc,#aa6ad5);
-border-radius: 50px;
-padding: 20px;
-margin-left: 3px;
-margin-right: 3px;
-width: 300px;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
+  background: linear-gradient(40deg, #0f86b9dc, #aa6ad5);
+  border-radius: 50px;
+  padding: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 #support .imggroup.short img {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-.imggroup.short img{
-border-radius: 25px;
+.imggroup.short img {
+  border-radius: 25px;
 }
-.imggroup.long img{
-border-radius: 25px;
-
+.imggroup.long img {
+  border-radius: 25px;
 }
 #support .imggroup.short p {
-margin: 10px 0;
+  margin: 10px 0;
 }
 
-.imggroup.long{
-    background: linear-gradient(#3a669fc3, #924cd471);
-    border-radius: 50px;
-    padding: 20px;
-    margin: 4px;
-    font-size: larger;
-    color:#ffffff;
+.imggroup.long {
+  background: linear-gradient(#3a669fc3, #924cd471);
+  border-radius: 50px;
+  padding: 20px;
+  margin: 4px;
+  font-size: larger;
+  color: #ffffff;
 }
