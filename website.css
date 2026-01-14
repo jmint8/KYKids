@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(238, 232, 240);
 }
 
 header {
@@ -22,28 +22,41 @@ header {
 
 /*all background images oare from pexels and have public domain*/
 #home header{
-    background-image:url(imgs/home.jpg);
-    background-size: length;  
+    background-image:
+    linear-gradient(transparent, rgb(238, 232, 240)),
+    url(imgs/home.jpg);
+
+    background-size: length;
 }
 #childcare header{
-    background-image:url(imgs/childcare.jpg);
+    background-image:
+    linear-gradient(transparent, rgb(238, 232, 240)),
+    url(imgs/childcare.jpg);
     background-size: length;
 
 }
 #activities header{
-    background-image:url(imgs/activities.jpg);
+    background-image:
+    linear-gradient(transparent, rgb(238, 232, 240)),
+    url(imgs/activities.jpg);
     background-size: length;
 }
 #support header{
-    background-image:url(imgs/support.jpg);
+    background-image:
+    linear-gradient(transparent, rgb(238, 232, 240)),
+    url(imgs/support.jpg);
     background-size: length;
 }
 #preschool header{
-    background-image:url(imgs/preschool.jpg);
+    background-image:
+    linear-gradient(transparent, rgb(238, 232, 240)),
+    url(imgs/preschool.jpg);
     background-size: length;
 }
 #concerns header{
-    background-image:url(imgs/concerns.jpg);
+    background-image:
+    linear-gradient(transparent, rgb(238, 232, 240)),
+    url(imgs/concerns.jpg);
     background-size: length;
 }
 
@@ -473,8 +486,12 @@ text-align: center;
 #support .imggroup.short img {
 margin-bottom: 15px;
 }
-.imggroup.short img {
+.imggroup.short img{
 border-radius: 25px;
+}
+.imggroup.long img{
+border-radius: 25px;
+
 }
 #support .imggroup.short p {
 margin: 10px 0;
