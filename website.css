@@ -36,11 +36,17 @@ a:not(nav a) {
   font-weight: 900;
 }
 
-link l #home p {
+p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+link #home p{
   font-size: 18px;
   font-style: "PT Sans", sans-serif;
   margin-top: 20px;
   font-weight: lighter;
+  text-decoration: none;
   min-height: 30px;
   color: rgb(35, 32, 32);
 }
