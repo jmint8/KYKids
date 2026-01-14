@@ -12,12 +12,39 @@ body {
 
 header {
   display: flex;
-  background-image: linear-gradient(rgb(34, 88, 187), rgba(1, 230, 255, 0.932));
   background-size: cover;
   background-position: center;
   height: 400px;
   flex-direction: column;
   align-content: center;
+}
+
+
+/*all background images oare from pexels and have public domain*/
+#home header{
+    background-image:url(imgs/home.jpg);
+    background-size: length;  
+}
+#childcare header{
+    background-image:url(imgs/childcare.jpg);
+    background-size: length;
+
+}
+#activities header{
+    background-image:url(imgs/activities.jpg);
+    background-size: length;
+}
+#support header{
+    background-image:url(imgs/support.jpg);
+    background-size: length;
+}
+#preschool header{
+    background-image:url(imgs/preschool.jpg);
+    background-size: length;
+}
+#concerns header{
+    background-image:url(imgs/concerns.jpg);
+    background-size: length;
 }
 
 .links li {
@@ -66,6 +93,8 @@ header .title {
   color: rgba(249, 249, 249, 1);
   height: fit-content;
   order: 1;
+  background: radial-gradient(transparent, rgba(74, 85, 172, 0.925), rgba(93, 35, 128, 0.25));
+  border-radius: 12px;
 }
 
 nav {
@@ -325,7 +354,7 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 }
 @keyframes color-change {
   from {
-    background-color: transparent;
+    background: linear-gradient(rgb(29, 80, 153),transparent);
   }
   to {
     background-color: rgb(29, 80, 153);
@@ -428,10 +457,12 @@ max-width: 1200px;
 margin: 0 auto;
 }
 
-#support .imggroup.short {
-background-color: #0f86b9a5;
-border-radius: 12px;
+.imggroup.short {
+background: linear-gradient(40deg,#0f86b9dc,#aa6ad5);
+border-radius: 50px;
 padding: 20px;
+margin-left: 3px;
+margin-right: 3px;
 width: 300px;
 display: flex;
 flex-direction: column;
@@ -445,4 +476,14 @@ margin-bottom: 15px;
 
 #support .imggroup.short p {
 margin: 10px 0;
+}
+
+.imggroup.long{
+    background: linear-gradient(#3a669fc3, #924cd471);
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: larger;
+    color:#ffffff;
 }
