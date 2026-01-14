@@ -270,8 +270,9 @@ ul{
 }
 /*Activities section*/
 #activities img{
-    width:300px;
+    width:280px;
 }
+
 #activities .imggroup.short{
     display:flex;
     flex-direction: column;
@@ -280,7 +281,9 @@ ul{
     align-items: center;
     margin-bottom: 10px;
 }
-
+.imggroup.long .links li a{
+    color:white;
+}
 #activities .imggroup.long
 {
     display: flex;
@@ -305,9 +308,10 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
     padding: 5px;
     list-style: none;
     margin: 20px;
-    background-color: #0c4d97a5;
-    border-radius: 10px;
-    color: white;;
+    background-color: #0f86b9a5;
+    border-radius: 5px;
+    color: white;
+    text-align: center;;
 }
 
 #dolly a, #ready4k a{
