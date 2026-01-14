@@ -91,7 +91,11 @@ link #home p {
   color: rgb(35, 32, 32);
 }
 
-#home #funding {
+#home #funding h2{
+    background: linear-gradient(90deg,rgba(70, 164, 70, 0.863),green);
+} 
+#home #funding h3{
+    background: linear-gradient(90deg,rgba(70, 164, 70, 0.863),green);
 }
 
 header .title {
@@ -494,7 +498,7 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 }
 
 .imggroup.short {
-  background: linear-gradient(40deg, #0f86b9dc, #aa6ad5);
+  background: linear-gradient(40deg, #0f86b9a8, #aa6ad5);
   border-radius: 50px;
   padding: 20px;
   margin-left: 3px;
@@ -504,6 +508,7 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
   flex-direction: column;
   align-items: center;
   text-align: center;
+  color: white;
 }
 
 #support .imggroup.short img {
