@@ -11,8 +11,7 @@ body{
 header{
     display: flex;
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url(imgs/HeartofKYWebLogo.jpg);
+        linear-gradient(rgb(34, 88, 187), rgba(1, 230, 255, 0.932));
     background-size: cover;
     background-position: center;
     height:400px;
@@ -153,7 +152,7 @@ aside{
 }
 
 p,h2,h3,address,.phone{ 
-    margin: 10px 50px 10px 50px;
+    margin: 10px 15% 10px 5%;
 }
 
 p{
@@ -173,7 +172,7 @@ h2, h3{
 }
 
 ul{
-    margin: 10px 50px 10px 50px;
+    margin: 10px 15% 10px 15%;
 }
 
 /*Childcare section*/
@@ -356,10 +355,6 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 }
 
 /*Concerns section*/
-#concerns section p, #concerns section li{
-    margin:30px;
-    
-}
 #concerns .imgwrapper{
     display:flex;
     flex-wrap: wrap;;

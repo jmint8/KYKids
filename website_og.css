@@ -153,7 +153,7 @@ aside{
 }
 
 p,h2,h3,address,.phone{ 
-    margin: 10px 50px 10px 50px;
+    margin: 10px 15% 10px 15%;
 }
 
 p{
@@ -173,7 +173,7 @@ h2, h3{
 }
 
 ul{
-    margin: 10px 50px 10px 50px;
+    margin: 10px 15% 10px 15%;
 }
 
 /*Childcare section*/
@@ -363,10 +363,7 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
 }
 
 /*Concerns section*/
-#concerns section p, #concerns section li{
-    margin:30px;
-    
-}
+
 #concerns .imgwrapper{
     display:flex;
     flex-wrap: wrap;;
