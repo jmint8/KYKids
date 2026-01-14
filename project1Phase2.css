@@ -1,0 +1,378 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+header{
+    display: flex;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url(imgs/HeartofKYWebLogo.jpg);
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.links li{
+    list-style: none;;
+}
+#home main>section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a:not(nav a){
+    color:rgb(0, 114, 153, 1);
+}
+
+#home h2{
+    font-size:30px;
+    font-weight:900;
+}
+
+link l
+
+#home p
+{
+    font-size: 18px;
+    font-style: "PT Sans", sans-serif;
+    margin-top:20px;
+    font-weight: lighter;
+    min-height: 30px;
+    color: rgb(35, 32, 32);
+}
+
+header .title{
+    display:flex;
+    width: 300px;
+    font-family:'Rock Salt' , cursive;
+    font-weight: 600;
+    text-align: center;
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+    margin: auto;
+    flex-wrap:wrap;
+    color: rgba(249, 249, 249, 1);
+    height: fit-content;
+    order:1;
+}
+
+nav{
+    position:fixed;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    align-items: center;
+    flex-grow: auto;
+    justify-content: flex-end;
+    animation: color-change .01s;
+    animation-timeline: scroll();
+}
+
+nav ul {
+    list-style: none;
+    gap:30px;
+    font-family: Helvetica;
+    display:flex;  
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+
+header a:link{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav::before {
+    display: flex;
+    content: "Heart of Kentucky Kids";
+    position: fixed;
+    left:5px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-family: Helvetica, sans-serif;
+    font-size: 15pt;
+    align-self: center;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.logo{
+    display: none;
+}
+
+#inspiration p{
+    text-align: center;
+    font-size: 30px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: rgba(0, 114, 153, 1);
+}
+
+.social:nth-child(1) img{
+    /*background-color: #1877f2;*/
+    /*okay this is is cool. I like what we did for the gradient*/
+    border-radius: 100%;
+    background-image: linear-gradient(#1877f2, #6e8cb5);
+    width: 60px;
+}
+.social:nth-child(2) img{
+    /*I think we can add a linear gradient where the patterns of 
+    Instagram flow in*/ 
+    background-color: #fe005c;
+    border-radius: 100%;
+    background-image: linear-gradient(#ff8800,#fe005c);
+    width: 60px;
+}
+
+aside{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+p,h2,h3,address,.phone{ 
+    margin: 10px 50px 10px 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h2, h3{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgba(0,114,153,1);
+}
+
+ul{
+    margin: 10px 50px 10px 50px;
+}
+
+/*Childcare section*/
+
+#childcare aside, #activities aside, #support aside, #preschool aside, #concerns aside{
+    display:none; /* The socials image for every other pages except home is hidden.*/
+}
+#whyChildcare .imgdiv{
+    display:none; /* There was a photo not in the original website which was removed.*/
+}
+#whyChildcare div{
+    order:2;
+}
+
+#childcare img
+{
+    width:350px;
+    
+}
+#childcare .imgwrapper{
+    margin:80px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imgwrapper #whyChildcare
+{
+    order:1;
+}
+
+#childcare .imggroup.long
+{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#childcare h2{
+    font-size: 35px;
+}
+
+#poviders
+{
+    display: none;
+}
+
+/*PreSchool section*/
+
+#headStartPre
+{
+    display:flex;
+}
+.imgwrapper{
+    display:flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap:wrap;
+    
+
+}
+#preschool .imggroup.short{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#HeadstartSection img{
+    width: 160px;
+}
+#PublicPreschool img{
+    width:170px;
+}
+
+#PrivatePreschool img{
+    width:170px;
+}
+
+/*Support section*/
+
+#support img{
+    width:200px;
+}
+#support .imggroup.short{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/*Activities section*/
+#activities img{
+    width:280px;
+}
+
+#activities .imggroup.short{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.imggroup.long .links li a{
+    color:white;
+}
+#activities .imggroup.long
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    gap: 50px;
+
+}
+#programs p{
+    margin-bottom:5px;
+}
+iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
+{
+    width: 464px;
+    height:315px;
+    align-self: center;
+}
+
+#dolly .links li, #ready4k .links li{
+    padding: 5px;
+    list-style: none;
+    margin: 20px;
+    background-color: #0f86b9a5;
+    border-radius: 5px;
+    color: white;
+    text-align: center;;
+}
+
+#dolly a, #ready4k a{
+    text-decoration: none;
+}
+
+
+.note{
+    margin:50px;
+}
+@keyframes color-change {
+  from { background-color:transparent;}
+  to { background-color: rgb(0, 0, 0); }
+}
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*Concerns section*/
+#concerns section p, #concerns section li{
+    margin:30px;
+    
+}
+#concerns .imgwrapper{
+    display:flex;
+    flex-wrap: wrap;;
+
+}
+#concerns img{
+    width: 300px;
+}
+#concerns .imggroup.long{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    flex-grow: 1;
+    align-items: center;;
+
+}
