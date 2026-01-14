@@ -284,9 +284,11 @@ ul {
 .imggroup.long .links li a {
   color: white;
 }
+
 #activities .imggroup.long {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 300px;
   flex-grow: 1;
   flex-shrink: 2;
@@ -372,4 +374,75 @@ iframe[src="https://www.youtube.com/embed/HVb7yfI0HT4"]
   width: 300px;
   flex-grow: 1;
   align-items: center;
+}
+
+#activities .imgwrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 40px;
+margin: 0 auto;
+max-width: 1200px;
+}
+
+#activities .imggroup {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+text-align: center;
+}
+
+
+#activities .imggroup.bg {
+background-image: url("imgs/kid.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#activities .links a {
+display: inline-block;
+padding: 14px 22px;
+font-size: 18px;
+border-radius: 6px;
+}
+
+#activities .imggroup > div {
+padding: 10px 15px;
+}
+
+#activites, .note{
+    display: flex;
+    justify-content: center;
+}
+
+#support .imgwrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 30px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+#support .imggroup.short {
+background-color: #0f86b9a5;
+border-radius: 12px;
+padding: 20px;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+#support .imggroup.short img {
+margin-bottom: 15px;
+}
+
+#support .imggroup.short p {
+margin: 10px 0;
 }
