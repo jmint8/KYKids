@@ -473,7 +473,9 @@ text-align: center;
 #support .imggroup.short img {
 margin-bottom: 15px;
 }
-
+.imggroup.short img {
+border-radius: 25px;
+}
 #support .imggroup.short p {
 margin: 10px 0;
 }
